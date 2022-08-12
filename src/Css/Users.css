@@ -1,0 +1,54 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(219,229,240);
+    background: linear-gradient(45deg, rgba(219,229,240,1) 0%, rgba(175,83,209,1) 43%, rgba(122,58,209,0.9626444327731093) 100%);
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0;
+  }
+  
+  .link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+  }
+
+.userContainer {
+    margin-top: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px
+}
+
+.cardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  padding: 16px;
+  margin: 0 16px;
+  border-radius: 8px;
+  gap: 10px;
+  width: 90%;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.iconContainer {
+    display: flex;
+    gap: 80px
+}
